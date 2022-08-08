@@ -1,12 +1,13 @@
 import Head from 'next/head'
 import Header from '@components/Header'
 import Footer from '@components/Footer'
+import GTM from '@components/GTM'
 
 export default function Home() {
   return (
     <div className="container">
       <Head>
-        
+        <GTM />
         <title>Next.js Starter!</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
